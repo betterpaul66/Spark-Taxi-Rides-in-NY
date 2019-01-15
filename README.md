@@ -1,5 +1,5 @@
 # Spark-Taxi-Rides-in-NY
-This project is designed to give you an opportunity to gain experience in programming systems in the Hadoop ecosystem. In this case, we use Spark to analyze taxi rides within New York.
+This project is designed togain experience in programming systems in the Hadoop ecosystem. In this case, we use Spark to analyze taxi rides within New York.
 
 We will use a data set which covers one month. You will find time and location for each
 trip's start and end. In the following, this is the data that is meant when we refer to a
