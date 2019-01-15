@@ -13,15 +13,16 @@ where r is a distance in meters between 50 and 200.
 To compute the return trips, you may want to break the problem down into the following
 series of problems:
 1. Given the (lat,lon) coordinates
-• a(40:79670715332031;􀀀73:97093963623047)
-• b(40:789649963378906;􀀀73:94803619384766)
-• c(40:73122024536133;􀀀73:9823226928711)
+• a(40.79670715332031;-73.97093963623047)
+• b(40.789649963378906;-73.94803619384766)
+• c(40.73122024536133;-73.9823226928711)
 which trips have dropoff locations within r meters of a,b or c?
 2. For each trip a in the dataset, compute the trips that have a pickup location within
 r meters of a's dropoff location. These are the return trip candidates.
 3. For all trips a in the dataset, compute all trips that may have been return trips for
 a.
 Another way to characterize the dataset to be returned would be this pseudo SQL:
+
 select *
 from
 tripsProvided a,
